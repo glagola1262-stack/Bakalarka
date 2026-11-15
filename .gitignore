@@ -1,0 +1,18 @@
+
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+*.token
+
+# Local datasets and caches
+data/*
+.cache/
+
+# Local experiment data containing gated dataset texts
+experiments/**/results/predictions.csv
+experiments/**/results/misclassified.csv
+
